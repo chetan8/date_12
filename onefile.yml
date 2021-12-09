@@ -5,5 +5,5 @@
   tasks: 
     - name: copying a war file
       copy:
-        src: ./target/fresh_fruits.war
+        src: /var/lib/jenkins/workspace/date_08/target/fresh_fruits.war
         dest: /opt/apache-tomcat-8.5.73/webapps/
